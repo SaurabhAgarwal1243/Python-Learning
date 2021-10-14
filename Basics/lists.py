@@ -16,7 +16,6 @@ print(friends)
 #List functions
 
 lucky_numbers = [4, 8, 15, 16, 88, 32]
-lucky_number = [4, 8, 15, 16, 23, 2, 12, 88, 32]
 
 friends.extend(lucky_numbers)       #appending lucky_numbers list into friends list
 print(friends)
@@ -37,12 +36,12 @@ print(friends.index("tom"))         #to check at which index the value kevin is 
 
 print(friends.count("kelly"))       #check the number of times a particular value is present in the list
 
-lucky_number = [4, 8, 15, 16, 23, 2, 12, 88, 32]
-lucky_number.sort()                 #sorting the list in asscending order
-print(lucky_number)
+number = [4, 8, 15, 16, 23, 2, 12, 88, 32]
+number.sort()                 #sorting the list in asscending order
+print(number)
 
-lucky_number.reverse()              #reversing the list
-print(lucky_number)
+number.reverse()              #reversing the list
+print(number)
 
 friends2 = friends.copy()           #copying one list to another
 print(friends2)
