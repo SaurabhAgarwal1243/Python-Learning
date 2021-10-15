@@ -48,3 +48,12 @@ print(friends2)
 
 friends.clear()                     #clearing the whole list and receiving blank list
 print(friends)
+
+
+#Tuples are basically lists with immutability i.e they cannot be modified in anyway possible once created.
+#Tuples are used to create a data which does not need to be modified.
+#Tuples can have different data types in a single tuple.
+
+coordinates = (4, 5)
+print(coordinates[0])       #accessing elements of a tuple
+
