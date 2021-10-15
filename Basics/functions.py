@@ -11,3 +11,11 @@ def say_name(name):         #parameterizing the function
 
 say_name("Saurabh")         #passing the value for name parameter
 
+
+#Return statement usage
+
+def cube(num):
+    return num*num*num       #return back the value, you cannot write/execute code after writing return.
+
+result = cube(3)
+print(result)
